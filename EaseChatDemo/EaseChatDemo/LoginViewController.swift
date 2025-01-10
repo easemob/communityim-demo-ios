@@ -122,6 +122,8 @@ final class LoginViewController: UIViewController {
         self.addGesture()
         Theme.registerSwitchThemeViews(view: self)
         self.switchTheme(style: Theme.style)
+        // 隐藏验证码
+        self.pinCode.isHidden = true
     }
     
     private func addGesture() {
@@ -227,6 +229,8 @@ extension LoginViewController: UITextFieldDelegate {
                 self.showToast(toast: "PhoneError".localized())
                 return
             }
+            // 验证码重置为 手机号后6位
+            self.pinCode.text = String(self.phoneNumber.text!.suffix(6))
             if self.pinCode.text?.count ?? 0 != 6 {
                 self.showToast(toast: "PinCodeError".localized())
                 return
