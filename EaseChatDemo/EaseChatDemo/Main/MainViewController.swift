@@ -51,6 +51,8 @@ final class MainViewController: UITabBarController {
         Theme.registerSwitchThemeViews(view: self)
         self.switchTheme(style: Theme.style)
         self.updateContactBadge()
+        //
+        ComponentsRegister.shared.MessageViewController = CustomMessageListController.self
     }
     
     private func setupDataProvider() {

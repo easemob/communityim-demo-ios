@@ -139,3 +139,9 @@
 "style1" = "样式1";
 "style2" = "样式2";
 "style_preview" = "样式预览";
+
+"NSCameraUsageDescription" = "需要使用您的相机进行拍照和录像";
+"CameraPermissionDisabled" = "相机权限被禁用";
+"EnableCameraPermissionInSettings" = "请在设置中启用相机权限";
+"Cancel" = "取消";
+"GoToSettings" = "前往设置";

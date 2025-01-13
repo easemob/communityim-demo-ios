@@ -64,6 +64,8 @@
 		05E5A1C92B99A8C200955DD1 /* ColorSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5A1C82B99A8C200955DD1 /* ColorSettingViewController.swift */; };
 		05FE6C2A2B9A9F160030A983 /* ThemesSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FE6C292B9A9F160030A983 /* ThemesSettingViewController.swift */; };
 		05FE6C2C2B9AADD00030A983 /* ColorHueSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FE6C2B2B9AADD00030A983 /* ColorHueSettingCell.swift */; };
+		1986C3C42D34FB3F00EB94C0 /* CustomMessageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986C3C32D34FB3500EB94C0 /* CustomMessageListController.swift */; };
+		1986C3C62D35005F00EB94C0 /* CameraPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986C3C52D35004A00EB94C0 /* CameraPermissionManager.swift */; };
 		C4459C57463963DE809CB15A /* Pods_EaseChatDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52296E4D561A746F13103874 /* Pods_EaseChatDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -157,6 +159,8 @@
 		05EAF26A2BB2650B00D905F4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Pods/FMDB/privacy/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		05FE6C292B9A9F160030A983 /* ThemesSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesSettingViewController.swift; sourceTree = "<group>"; };
 		05FE6C2B2B9AADD00030A983 /* ColorHueSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHueSettingCell.swift; sourceTree = "<group>"; };
+		1986C3C32D34FB3500EB94C0 /* CustomMessageListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageListController.swift; sourceTree = "<group>"; };
+		1986C3C52D35004A00EB94C0 /* CameraPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionManager.swift; sourceTree = "<group>"; };
 		52296E4D561A746F13103874 /* Pods_EaseChatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EaseChatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA7C6DED4C4F4A662BE5BBD /* Pods-EaseChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseChatDemo.release.xcconfig"; path = "Target Support Files/Pods-EaseChatDemo/Pods-EaseChatDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FBAD9654D9F80811528E34F0 /* Pods-EaseChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseChatDemo.debug.xcconfig"; path = "Target Support Files/Pods-EaseChatDemo/Pods-EaseChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -309,6 +313,7 @@
 		05B7C20C2B96BD2100DA0F8F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1986C3C52D35004A00EB94C0 /* CameraPermissionManager.swift */,
 				05B7C20D2B96BD3100DA0F8F /* GCDTimer.swift */,
 				05B7C20F2B96C16B00DA0F8F /* EasemobRequest.swift */,
 				05B7C2132B96C24100DA0F8F /* EasemobBusinessApi.swift */,
@@ -331,6 +336,7 @@
 		05B7C2192B97017000DA0F8F /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1986C3C32D34FB3500EB94C0 /* CustomMessageListController.swift */,
 				05B7C21A2B97019300DA0F8F /* MainViewController.swift */,
 			);
 			path = Main;
@@ -560,6 +566,7 @@
 			files = (
 				0571F74E2C0D5B4000877895 /* PrivacyPolicyViewController.swift in Sources */,
 				05E5A1C92B99A8C200955DD1 /* ColorSettingViewController.swift in Sources */,
+				1986C3C62D35005F00EB94C0 /* CameraPermissionManager.swift in Sources */,
 				052978542B97261D008AB5A0 /* MeMenuCell.swift in Sources */,
 				05B7C21E2B970D2F00DA0F8F /* MeViewController.swift in Sources */,
 				05FE6C2C2B9AADD00030A983 /* ColorHueSettingCell.swift in Sources */,
@@ -579,6 +586,7 @@
 				0544D43D2C3BC24000E36B08 /* ImagePreviewCell.swift in Sources */,
 				05B7C2102B96C16B00DA0F8F /* EasemobRequest.swift in Sources */,
 				05A9415D2BAA700000C71A74 /* MineContactRemarkEditViewController.swift in Sources */,
+				1986C3C42D34FB3F00EB94C0 /* CustomMessageListController.swift in Sources */,
 				05FE6C2A2B9A9F160030A983 /* ThemesSettingViewController.swift in Sources */,
 				0544D43F2C3BC24000E36B08 /* ImagePreviewTransitionDelegate.swift in Sources */,
 				05E595362C129A6C00970D48 /* MineContactsViewController.swift in Sources */,
