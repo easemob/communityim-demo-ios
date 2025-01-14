@@ -1,0 +1,58 @@
+PODS:
+  - AgoraInfra_iOS (1.2.13)
+  - AgoraRtcEngine_iOS/RtcBasic (4.3.2)
+  - EaseCallKit (4.10.0):
+    - AgoraRtcEngine_iOS/RtcBasic (~> 4.3.0)
+    - HyphenateChat (>= 3.9.0)
+    - Masonry
+    - SDWebImage
+  - EaseChatUIKit (4.11.2):
+    - HyphenateChat (>= 4.10.1)
+  - FMDB (2.7.11):
+    - FMDB/standard (= 2.7.11)
+  - FMDB/standard (2.7.11)
+  - HyphenateChat (4.12.0):
+    - AgoraInfra_iOS (= 1.2.13)
+  - KakaJSON (1.1.2)
+  - Masonry (1.1.0)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+  - SwiftFFDBHotFix (2.3.1):
+    - FMDB (~> 2.7.2)
+
+DEPENDENCIES:
+  - EaseCallKit
+  - EaseChatUIKit
+  - FMDB (= 2.7.11)
+  - KakaJSON (~> 1.1.2)
+  - SwiftFFDBHotFix
+
+SPEC REPOS:
+  trunk:
+    - AgoraInfra_iOS
+    - AgoraRtcEngine_iOS
+    - EaseCallKit
+    - EaseChatUIKit
+    - FMDB
+    - HyphenateChat
+    - KakaJSON
+    - Masonry
+    - SDWebImage
+    - SwiftFFDBHotFix
+
+SPEC CHECKSUMS:
+  AgoraInfra_iOS: 65e11a2183ab7836258768868d06058c22701b13
+  AgoraRtcEngine_iOS: eaa97751fcfe1b50d9b067e0df92752a6a5f899f
+  EaseCallKit: 29ccbf017940be4db605c2ecb97d7f0641e3922c
+  EaseChatUIKit: 93c35a1a141cf42e72e37dfc478268bce7edb326
+  FMDB: 57486c1117fd8e0e6b947b2f54c3f42bf8e57a4e
+  HyphenateChat: e3869321ba4e1b7e61f320a037935f3f4751e74a
+  KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+  SwiftFFDBHotFix: 7e582af57129df9b613da26a1d72d08a5fdf279e
+
+PODFILE CHECKSUM: 15d7e24d7534a99a18f3093002dd97bc9140c37a
+
+COCOAPODS: 1.16.2
