@@ -64,6 +64,7 @@
 		05E5A1C92B99A8C200955DD1 /* ColorSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5A1C82B99A8C200955DD1 /* ColorSettingViewController.swift */; };
 		05FE6C2A2B9A9F160030A983 /* ThemesSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FE6C292B9A9F160030A983 /* ThemesSettingViewController.swift */; };
 		05FE6C2C2B9AADD00030A983 /* ColorHueSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FE6C2B2B9AADD00030A983 /* ColorHueSettingCell.swift */; };
+		1986C3CC2D37FF1900EB94C0 /* CustomMessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986C3CB2D37FF1900EB94C0 /* CustomMessageListViewModel.swift */; };
 		C4459C57463963DE809CB15A /* Pods_EaseChatDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52296E4D561A746F13103874 /* Pods_EaseChatDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -157,6 +158,7 @@
 		05EAF26A2BB2650B00D905F4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Pods/FMDB/privacy/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		05FE6C292B9A9F160030A983 /* ThemesSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesSettingViewController.swift; sourceTree = "<group>"; };
 		05FE6C2B2B9AADD00030A983 /* ColorHueSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHueSettingCell.swift; sourceTree = "<group>"; };
+		1986C3CB2D37FF1900EB94C0 /* CustomMessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageListViewModel.swift; sourceTree = "<group>"; };
 		52296E4D561A746F13103874 /* Pods_EaseChatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EaseChatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA7C6DED4C4F4A662BE5BBD /* Pods-EaseChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseChatDemo.release.xcconfig"; path = "Target Support Files/Pods-EaseChatDemo/Pods-EaseChatDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FBAD9654D9F80811528E34F0 /* Pods-EaseChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseChatDemo.debug.xcconfig"; path = "Target Support Files/Pods-EaseChatDemo/Pods-EaseChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -331,6 +333,7 @@
 		05B7C2192B97017000DA0F8F /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1986C3CB2D37FF1900EB94C0 /* CustomMessageListViewModel.swift */,
 				05B7C21A2B97019300DA0F8F /* MainViewController.swift */,
 			);
 			path = Main;
@@ -578,6 +581,7 @@
 				052226C22BA92299007F14B9 /* MineGroupDetailViewController.swift in Sources */,
 				0544D43D2C3BC24000E36B08 /* ImagePreviewCell.swift in Sources */,
 				05B7C2102B96C16B00DA0F8F /* EasemobRequest.swift in Sources */,
+				1986C3CC2D37FF1900EB94C0 /* CustomMessageListViewModel.swift in Sources */,
 				05A9415D2BAA700000C71A74 /* MineContactRemarkEditViewController.swift in Sources */,
 				05FE6C2A2B9A9F160030A983 /* ThemesSettingViewController.swift in Sources */,
 				0544D43F2C3BC24000E36B08 /* ImagePreviewTransitionDelegate.swift in Sources */,
