@@ -6,7 +6,7 @@ PODS:
     - HyphenateChat (>= 3.9.0)
     - Masonry
     - SDWebImage
-  - EaseChatUIKit (4.11.2):
+  - EaseChatUIKit (4.12.0):
     - HyphenateChat (>= 4.10.1)
   - FMDB (2.7.11):
     - FMDB/standard (= 2.7.11)
