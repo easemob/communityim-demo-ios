@@ -53,6 +53,7 @@ final class MainViewController: UITabBarController {
         self.updateContactBadge()
         //
         ComponentsRegister.shared.MessageViewController = CustomMessageListController.self
+        ComponentsRegister.shared.MessagesViewModel = CustomMessageListViewModel.self
     }
     
     private func setupDataProvider() {

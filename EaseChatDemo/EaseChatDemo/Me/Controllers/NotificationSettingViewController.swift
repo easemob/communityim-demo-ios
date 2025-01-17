@@ -11,7 +11,7 @@ import EaseChatUIKit
 final class NotificationSettingViewController: UIViewController {
     
     private lazy var navigation: ChatNavigationBar = {
-        ChatNavigationBar(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: NavigationHeight),textAlignment: .left)
+        ChatNavigationBar(show: CGRect(x: 0, y: 0, width: self.view.frame.width, height: NavigationHeight),textAlignment: .left)
     }()
     
     private lazy var container: UIView = {
