@@ -155,6 +155,12 @@ extension PersonalInfoViewController: UITableViewDelegate,UITableViewDataSource 
     }
     
     @objc private func openCamera() {
+        CameraPermissionManager.shared.checkCameraPermission(from: self) {
+            self.doOpenCamera()
+        }
+    }
+    
+    @objc private func doOpenCamera() {
         guard UIImagePickerController.isSourceTypeAvailable(.camera) else {
             DialogManager.shared.showAlert(title: "permissions disable".chat.localize, content: "camera_disable".chat.localize, showCancel: false, showConfirm: true) { _ in
                 

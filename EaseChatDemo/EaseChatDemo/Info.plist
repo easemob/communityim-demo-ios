@@ -8,6 +8,8 @@
 	</array>
 	<key>Privacy - File Access Usage Description</key>
 	<string>环信想使用您的文件用于发送文件消息</string>
+	<key>NSCameraUsageDescription</key>
+	<string>需要使用您的相机进行拍照和录像</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

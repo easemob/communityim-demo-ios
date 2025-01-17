@@ -131,3 +131,10 @@
 "style1" = "Style 1";
 "style2" = "Style 2";
 "style_preview" = "Style Preview";
+
+"NSCameraUsageDescription" = "Need to use your camera for taking photos and videos";
+"CameraPermissionDisabled" = "Camera permission is disabled.";
+"EnableCameraPermissionInSettings" = "Please enable camera permission in Settings.";
+"Cancel" = "Cancel";
+"GoToSettings" = "Go to Settings";
+
