@@ -53,6 +53,20 @@ final class MineMessageListViewController: MessageListController {
             }
         }
     }
+
+    override func handleAttachmentAction(item: any ActionSheetItemProtocol) {
+        switch item.tag {
+        case "Camera":
+            CameraPermissionManager.shared.checkCameraPermission(from: self) {
+                self.openCamera()
+            }
+        case "File": self.selectFile()
+        case "Photo": self.selectPhoto()
+        case "Contact": self.selectContact()
+        default:
+            break
+        }
+    }
     
     private func showUserStatus(state: PresenceManager.State) {
         let subtitle = PresenceManager.showStatusMap[state] ?? ""

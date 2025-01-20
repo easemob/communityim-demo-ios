@@ -7,7 +7,7 @@
 
 import EaseChatUIKit
 
-class CustomMessageListViewModel: MessageListViewModel {
+class MineMessageListViewModel: MessageListViewModel {
     
     override func messageAvatarLongPressed(profile: any ChatUserProfileProtocol) {
         if (self.chatType == .group) {
